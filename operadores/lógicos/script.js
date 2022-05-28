@@ -26,6 +26,23 @@ let candidatoRecusado = !podeAplicar
 
 console.log('Candidato recusado', candidatoRecusado)
 
+// Comparações não Boleanos
 
+// Falsy
+// undefined
+// null
+// 0
+// false
+// ''
+// NaN - not a number (não é um número)
+
+// Truthy - não é nem um acima
+
+
+let corPersonalizada = 'Vermelho'
+let corPadrao = 'Azual'
+let corPerfil = corPersonalizada || corPadrao
+
+console.log(corPerfil)
 
 
