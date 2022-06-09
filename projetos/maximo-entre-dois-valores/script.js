@@ -20,12 +20,3 @@ function max(numero1,numero2){
 }
 
 
-
-
-
-
-
-
-
-
-
